@@ -19,5 +19,3 @@ def extract_frames(video_path: str, output_folder: str, skip: int = 1) -> int:
         count += 1
     cap.release()
     return saved
-video_path = r"C:\Users\ADMIN\Desktop\Deep Learning\Automated-Tracking-of-Players-and-Ball-in-Sports-Video-for-Performance-Analysis\data\video.mp4"
-extract_frames(video_path, "output_frames", skip=5)
